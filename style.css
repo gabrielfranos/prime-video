@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Amazon Ember Light';
+    src: url('assets/fonts/AmazonEmber_Lt.woff');
+}
+
+@font-face {
+    font-family: 'Amazon Ember RG';
+    src: url('assets/fonts/AmazonEmber_Rg.woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amazon Ember RG', sans-serif;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+
+header {
+    background-color: #00050d;
+    height: 56px;
+}
+
+nav {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40%;
+}
+
+nav img {
+    height: 100%;
+}
+
+
+.main_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #949494;
+    padding: 10px;
+    text-align: center;
+}
+
+.hero {
+    width: 100%;
+    background-image: url('assets/images/hero_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+
+
+.hero-texto {
+    color: white;
+}
+
+footer{
+    background-color: #222;
+    color: #949494;    
+}
+
+footer a{
+    text-decoration: none;
+    color: #0f79af;
+}

@@ -72,7 +72,7 @@ nav a {
     background-image: url('assets/images/hero_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: top right;
     height: 70vh;
 }
 
@@ -81,7 +81,8 @@ nav a {
     flex-direction: column;
     justify-content: space-between;
     padding: 50px;
-    width: 80%;
+    padding-right:55%;
+    width: 100%;
     height: 100%;
     background: linear-gradient(to right, black 40%, transparent);
     color: white;
@@ -96,13 +97,13 @@ nav a {
 
 .hero-texto p{
     margin-top: 12px;
-    width: 50%;
+    width: 80%;
     font-family: 'Amazon Ember Light';
     font-size: 21px;
     line-height: 27.2px;
 }
 .button{
-    width: 25%;
+    width: 60%;
     margin-top: 24px;
     display: flex;
     flex-direction: column;

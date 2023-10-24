@@ -31,7 +31,6 @@ header {
 
 nav {
     font-size: 18px;
-    line-height: 24px;
     width: 60%;
     height: 100%;
     margin: 0 auto;
@@ -73,6 +72,7 @@ nav a {
     background-image: url('assets/images/hero_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     height: 70vh;
 }
 
@@ -102,17 +102,32 @@ nav a {
     line-height: 27.2px;
 }
 .button{
+    width: 25%;
     margin-top: 24px;
     display: flex;
     flex-direction: column;
 }
 
 .button p{
+    width: fit-content;
+    padding: 8px;
+    margin: 0;
     font-size: 16px;
+    text-align: center;
+}
+
+.break{
+    display: flex;
+    align-items: center;
+}
+
+.break-line{
+    flex: 1;
+    height: 2px;
+    background-color: #949494;
 }
 
 button{
-    width: 25%;
     background-color: #0f79af;
     border: none;
     padding: 16px;
@@ -125,7 +140,7 @@ button{
 }
 
 .prime-canais{
-    margin-top: 16px;
+    margin: 16px 0;
     gap: 16px;
     display: flex;
     justify-content: space-between;
@@ -176,15 +191,17 @@ button{
     display: flex;
     align-items: flex-end;
 background-image: url('assets/images/video-store.jpg');
+background-position: left;
+
 }
 
 .store-texto{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 24px;
     padding: 50px;
-    padding-left: 850px;
+    padding-left: 55%;
     width: 100%;
     height: 100%;
     background: linear-gradient(to left, black 40%, transparent);
@@ -214,19 +231,29 @@ background-image: url('assets/images/video-store.jpg');
 }
 
 .bottom-hero{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 48px;
 }
 
 .card{
+    flex-basis: 0;
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
 }
 
 .card h2{
+    font-family: 'Amazon Ember Light';
+    font-size: 36px;
     text-align: center;
+    margin-bottom: 16px;
+}
+
+.card p{
+    font-size: 24px;
+    font-family: 'Amazon Ember Light';
 }
 
 footer{

@@ -133,6 +133,8 @@ button{
     font-size: 18px;
     padding: 16px;
     color: #fff;
+    cursor: pointer;
+
 }
 
 #asterisco{
